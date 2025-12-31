@@ -5597,3 +5597,28 @@ header.main-header .header-sticky.active{
 .navbar-brand{
 	width: 150px ;
 }
+
+/* Removes bullet points and aligns icons horizontally */
+.social-icons-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes them side-by-side */
+    gap: 15px;     /* Space between icons */
+}
+
+/* Base style for the icons */
+.social-icons-list a {
+    font-size: 20px;
+    color: #555; /* Default color */
+    transition: 0.3s;
+}
+
+/* Hover colors for specific brands */
+.social-icons-list a:hover {
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+.social-icons-list a.fb-icon:hover { color: #1877F2; } /* Facebook Blue */
+.social-icons-list a.x-icon:hover { color: #000000; }  /* X Black */
+.social-icons-list a.li-icon:hover { color: #0077b5; } /* LinkedIn Blue */
