@@ -516,6 +516,9 @@ header.main-header .header-sticky{
 	position: relative;
 	top: 0;
 	z-index: 100;
+	background: rgba(30, 30, 30, 0.8);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 }
 
 header.main-header .header-sticky.hide{
