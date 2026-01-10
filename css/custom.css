@@ -2051,6 +2051,9 @@ header.main-header .header-sticky.active{
 	padding: 220px 0 120px;
 	margin-top: -110px;
 }
+.page-header.backdrop-1{
+	background: linear-gradient(270.02deg, rgba(12, 55, 90, 0) 0.02%, rgba(12, 55, 90, 0.5) 84.99%), url('../images/bg_hero2.jpeg');
+}
 
 .page-header-box{
 	text-align: center;
