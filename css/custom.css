@@ -2052,7 +2052,8 @@ header.main-header .header-sticky.active{
 	margin-top: -110px;
 }
 .page-header.backdrop-1{
-	background: linear-gradient(270.02deg, rgba(12, 55, 90, 0) 0.02%, rgba(12, 55, 90, 0.5) 84.99%), url('../images/bg_hero2.jpeg');
+	background: linear-gradient(270.02deg, rgba(12, 55, 90, 0) 0.02%, rgba(12, 55, 90, 0.5) 84.99%), url('../images/bg_hero3.jpeg');
+	background-position: center -213.68281px !important;
 }
 
 .page-header-box{
@@ -5646,7 +5647,7 @@ header.main-header .header-sticky.active{
 
 @media (prefers-color-scheme: dark){
   .main-header .header-sticky{
-    background: rgb(10 10 10 / 78%);
+    background: rgb(0 35 17);
     border-bottom: 1px solid rgba(255,255,255,0.06);
   }
 }
